@@ -280,6 +280,7 @@ footer nav a {
 }
 
 .contact-form input[type=submit] {
+    margin: 0 2%;
     border: 2px solid black;
     color: black;
     background-color: white;
