@@ -63,8 +63,12 @@ would you say?
       is like labeling all of the boxes according to a standard so that anyone
       (or even a computer) can easily know what's in the boxes.
 
-2. Name two big differences between ```display: block;``` and ```display: 
-inline;```. 
+2. Name two big differences between `display: block;` and `display: inline;`.
+
+    - `display: block;` starts and ends with a newline, while `display: inline;`
+      continues sits next to the last element.
+    - `display: block;` can be given a width and height, while `display: inline;`
+      is large enough to contain the content, and nothing more.
 
 3. What are the 4 areas of the box model?
 
