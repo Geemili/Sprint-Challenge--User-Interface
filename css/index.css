@@ -73,6 +73,10 @@ p {
 
 /* Style header and header nav */
 
+header {
+    margin-bottom: 20px;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
