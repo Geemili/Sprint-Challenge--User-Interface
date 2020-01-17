@@ -210,7 +210,7 @@ footer nav a {
 .about-gallery div {
     width: 49%;
     max-width: 370px;
-    border-bottom: dotted 1px black;
+    border-bottom: dashed 1px black;
     margin-bottom: 50px;
     padding-bottom: 30px;
 }
