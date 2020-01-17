@@ -229,3 +229,9 @@ footer nav a {
     color: black;
 }
 
+
+/* Style about-bottom-content */
+
+.about-bottom-content {
+    padding: 20px 30px 70px;
+}
