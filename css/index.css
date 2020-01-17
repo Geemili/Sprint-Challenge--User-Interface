@@ -93,6 +93,8 @@ header nav a:hover {
     color: coral;
 }
 
+/* Style top-content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +108,9 @@ header nav a:hover {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/* Style middle-content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -133,6 +138,9 @@ header nav a:hover {
     justify-content: center;
 }
 
+
+/* Style bottom-content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -146,6 +154,9 @@ header nav a:hover {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Style footer */
 
 footer {
     width: 100%;
