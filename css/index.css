@@ -190,3 +190,20 @@ footer nav a {
     text-decoration: none;
 }
 
+
+/* Style about-gallery */
+
+.about-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-gallery div {
+    width: 49%;
+    max-width: 370px;
+    border-bottom: dotted 1px black;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
