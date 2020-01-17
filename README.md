@@ -80,6 +80,10 @@ would you say?
 4. While using flexbox, what axis does the following property work on: 
 `align-items: center`? 
 
+    - `align-items: center` works on the cross axis.
+    - The cross axis is vertical in the default `flex-direction`, but is
+      horizontal in `flex-direction: column`.
+
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses 
