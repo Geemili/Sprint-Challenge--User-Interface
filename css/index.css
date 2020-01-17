@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+/* Style header and header nav */
+
+header {
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: coral;
+}
+
+/* Style top-content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +108,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/* Style middle-content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +128,31 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Box colors */
+
+.box1 { background-color: teal; }
+.box2 { background-color: gold; }
+.box3 { background-color: cadetblue; }
+.box4 { background-color: coral; }
+.box5 { background-color: crimson; }
+.box6 { background-color: forestgreen; }
+.box7 { background-color: darkorchid; }
+.box8 { background-color: hotpink; }
+.box9 { background-color: indigo; }
+.box10 { background-color: dodgerblue; }
+
+
+/* Style bottom-content */
 
 .bottom-content {
     display: flex;
@@ -125,6 +167,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Style footer */
 
 footer {
     width: 100%;
@@ -144,3 +189,102 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Style about */
+
+.about {
+    padding: 0 25px 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+
+/* Style about-gallery */
+
+.about-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-gallery div {
+    width: 49%;
+    max-width: 370px;
+    border-bottom: dashed 1px black;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.about-gallery img {
+    margin-bottom: 10px;
+}
+
+.about-gallery .link {
+    border: 2px solid black;
+    border-radius: 10px/10px;
+    padding: 8px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Style about-bottom-content */
+
+.about-bottom-content {
+    padding: 20px 30px 70px;
+}
+
+/* Style contact form */
+
+.contact-form-section {
+    margin: 10px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    font-weight: bold;
+}
+
+.contact-form .contact-text {
+    width: 50%;
+    padding: 2%;
+}
+
+.contact-form .contact-message {
+    width: 100%;
+    padding: 2%;
+}
+
+.contact-form input {
+    font-size: 18px;
+}
+
+.contact-form input[type=text] {
+    width: 75%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    resize: vertical;
+    border: 2px solid black;
+    font-size: 16px;
+    margin-top: 1%;
+}
+
+.contact-form input[type=submit] {
+    margin: 0 2%;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    align-self: center;
+    font-weight: bold;
+}
+
