@@ -191,6 +191,14 @@ footer nav a {
 }
 
 
+/* Style about */
+
+.about {
+    padding: 0 25px 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+
 /* Style about-gallery */
 
 .about-gallery {
