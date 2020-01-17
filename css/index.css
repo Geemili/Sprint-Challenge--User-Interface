@@ -215,6 +215,10 @@ footer nav a {
     padding-bottom: 30px;
 }
 
+.about-gallery img {
+    margin-bottom: 10px;
+}
+
 .about-gallery .link {
     border: 2px solid black;
     border-radius: 10px/10px;
