@@ -59,6 +59,10 @@ by your project manager
 1. If you were to describe semantic HTML to the next cohort of students, what 
 would you say? 
 
+    - In HTML, tags are like boxes that hold text or more boxes. Sematic HTML
+      is like labeling all of the boxes according to a standard so that anyone
+      (or even a computer) can easily know what's in the boxes.
+
 2. Name two big differences between ```display: block;``` and ```display: 
 inline;```. 
 
