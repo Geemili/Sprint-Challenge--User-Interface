@@ -235,3 +235,40 @@ footer nav a {
 .about-bottom-content {
     padding: 20px 30px 70px;
 }
+
+/* Style contact form */
+
+.contact-form-section {
+    margin: 10px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.contact-form .contact-text {
+    width: 50%;
+}
+
+.contact-form .contact-message {
+    width: 100%;
+}
+
+.contact-form input[type=text] {
+    width: 100%;
+}
+
+.contact-form textarea {
+    width: 100%;
+}
+
+.contact-form input[type=submit] {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    align-self: center;
+}
+
