@@ -215,3 +215,13 @@ footer nav a {
     padding-bottom: 30px;
 }
 
+.about-gallery .link {
+    border: 2px solid black;
+    border-radius: 10px/10px;
+    padding: 8px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
