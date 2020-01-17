@@ -260,6 +260,10 @@ footer nav a {
     padding: 2%;
 }
 
+.contact-form input {
+    font-size: 18px;
+}
+
 .contact-form input[type=text] {
     width: 75%;
     border: none;
@@ -279,7 +283,6 @@ footer nav a {
     border: 2px solid black;
     color: black;
     background-color: white;
-    font-size: 18px;
     align-self: center;
     font-weight: bold;
 }
