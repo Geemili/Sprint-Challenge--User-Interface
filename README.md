@@ -86,6 +86,21 @@ would you say?
 
 5. Explain why git is valuable to a team of developers.
 
+    - `git` allows developers to record their changes and then share them with
+      other developers. `git` handles merging these changes together (though
+      sometimes a merge conflict will require manual resolution), which mean
+      that the team can work on the same codebase without overwriting other
+      programmers work.
+      
+    - In addition, since `git` stores the entire history of changes, the
+      repository is more resiliant to losing progress than a normal folder.
+      If you delete the wrong file or start making changes and realize you've
+      coded into a dead end, you can undo it with a simple `git reset --hard`.
+      And if you find a bug, you can look at the change where it was introduced
+      and revert that change.
+      
+    - Simply put, `git` makes it easier to share and version large codebases.
+
 You are expected to be able to answer all these questions. Your responses 
 contribute to your Sprint Challenge grade. Skipping this section *will* prevent 
 you from passing this challenge. 
